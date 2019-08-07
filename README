@@ -1,0 +1,6 @@
+This is a simple application to partially purge an MSMQ queue of messages, keeping a set number of the most recent messages. 
+
+Example:
+.\partialpurge .\private$\TestQueue 100
+
+This will keep the most recent 100 messages in the queue, purging the rest.
